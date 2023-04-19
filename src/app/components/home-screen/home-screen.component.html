@@ -1,0 +1,42 @@
+<div class="mt-2 d-flex flex-row justify-content-between">
+    <div class="set">
+        <p class="ms-3 text-white">iPad <i class="fa-sharp fa-solid fa-wifi text-white"></i></p>
+    </div>
+    <p class="text-white ms-3 hour">{{ hour }}</p>
+    <div class="set d-flex flex-row">
+        <p class="text-white">80%</p>
+        <div class="buttery">
+            <i class="fa-solid fa-battery-three-quarters text-white ms-1 me-3"></i>
+        </div>
+    </div>
+</div>
+<div class="container-app">
+    <div class="app">
+        <div class="apps ms-3 ms-lg-5">
+            <button type="button" [routerLink]="['/download']" routerLinkActive="active" id="download"><i
+                    class="fa-solid fa-file-pdf text-white"></i></button>
+            <p class="ms-1" [routerLink]="['/download']" routerLinkActive="active">Download CV</p>
+        </div>
+        <div class="apps">
+            <button type="button" [routerLink]="['/contact']" routerLinkActive="active" id="contact"><i
+                    class="fa-solid fa-envelope text-white"></i></button>
+            <p class="ms-1" [routerLink]="['/contact']" routerLinkActive="active">Contact me</p>
+        </div>
+        <div class="apps">
+            <button type="button" [routerLink]="['/social']" routerLinkActive="active" id="social"><i
+                    class="fa-solid fa-comment-dots text-white"></i></button>
+            <p class="ms-2" [routerLink]="['/social']" routerLinkActive="active">Socials</p>
+        </div>
+    </div>
+    <div class="app">
+        <div class="apps app-project">
+            <button type="button" [routerLink]="['/project']" routerLinkActive="active" id="project"><i
+                    class="bi bi-cone-striped text-white" id="cone"></i></button>
+            <p class="ms-3" [routerLink]="['/project']" routerLinkActive="active">Projects</p>
+        </div>
+        <div class="apps me">
+            <button type="button" [routerLink]="['/about_me']" routerLinkActive="active" id="aboutMe"><i class="bi bi-person-fill text-white" id="user"></i></button>
+            <p class="ms-3" [routerLink]="['/about_me']" routerLinkActive="active">About me</p>
+        </div>
+    </div>
+</div>

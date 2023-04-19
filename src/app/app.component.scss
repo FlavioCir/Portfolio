@@ -1,0 +1,20 @@
+.title {
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 50px;
+    box-shadow: 10px 20px 50px #bebebe;
+
+    h1 {
+        padding: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+        background-clip: text;
+        color: transparent;
+        background-size: 300% 300%;
+        animation: color 15s ease-in-out infinite;
+    }
+}

@@ -1,0 +1,198 @@
+.container {
+    margin-top: 50px;
+}
+
+#ipad {
+    background-color: #18181a;
+    border: 6px solid #363638;
+    border-radius: 40px;
+    width: 900px;
+    height: 600px;
+    box-shadow: 30px 50px 100px #85888c;
+}
+
+.screen1 {
+    width: 800px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+#screen {
+    margin-top: 18px;
+}
+
+.information {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width: 800px;
+    height: 550px;
+    background-color: rgb(243, 242, 242);
+
+    .title {
+        p {
+            font-size: 20px
+        }
+    }
+}
+
+.ipad-top {
+    background-color: #363638;
+}
+
+.exit i {
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.set {
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+}
+
+.foto {
+    height: 90px;
+    width: 90px;
+}
+
+.description {
+    p {
+        font-size: 17px;
+    }
+
+    .description-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 5px;
+        box-shadow: inset 0 0 10px gray;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: #0b6efd;
+    }
+
+    #ipad {
+        width: 800px;
+        height: 500px;
+    }
+
+    .screen1 {
+        width: 600px;
+        height: 460px;
+    }
+
+    #screen {
+        margin-top: 15px;
+    }
+
+    .information {
+        width: 600px;
+        height: 460px;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    #ipad {
+        width: 700px;
+        height: 400px;
+    }
+
+    .screen1 {
+        width: 440px;
+        height: 360px;
+    }
+
+    #screen {
+        margin-top: 15px;
+    }
+
+    .information {
+        width: 440px;
+        height: 360px;
+
+        .title {
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .set {
+        font-size: 12px;
+    }
+
+    .exit i {
+        font-size: 20px;
+    }
+
+    .description {
+        p {
+            font-size: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    #ipad {
+        width: 300px;
+        height: 500px;
+    }
+
+    .screen1 {
+        width: 250px;
+        height: 460px;
+    }
+
+    #screen {
+        margin-top: 15px;
+    }
+
+    .information {
+        width: 250px;
+        height: 460px;
+        border-radius: 20px;
+
+        .title {
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+
+    .set {
+        font-size: 11px;
+    }
+
+    .exit i {
+        font-size: 18px;
+    }
+
+    .description {
+        .description-top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
