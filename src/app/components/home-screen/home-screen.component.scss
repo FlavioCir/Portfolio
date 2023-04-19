@@ -154,9 +154,13 @@
         .app {
 
             .apps {
-                margin: 20px 0 40px 25px;
-                width: 50px;
-                height: 50px;
+                margin: 20px 0 50px 35px;
+                width: 40px;
+                height: 40px;
+
+                #cone, #user {
+                    font-size: 30px;
+                }
 
                 p {
                     font-size: 12px;
@@ -168,7 +172,7 @@
             }
 
             .me {
-                margin-left: 35px;
+                margin-left: 40px;
             }
 
             .app-project {
