@@ -159,20 +159,22 @@
         .app {
 
             .apps {
-                margin: 20px 0 50px 15px;
+                margin: 20px 0 0 15px;
 
                 #cone, #user {
-                    font-size: 30px;
+                    font-size: 22px;
                     padding: 5px;
+                    padding-left: 2px;
                 }
 
                 p {
-                    font-size: 12px;
+                    font-size: 10px;
+                    margin-left: -15px;
                 }
 
                 i {
-                    font-size: 25px;
-                    padding: 10px;
+                    font-size: 20px;
+                    padding: 7px;
                 }
             }
 
