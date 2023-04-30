@@ -18,14 +18,14 @@ export class HomeComponent implements OnInit {
         const months: string[] = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         let month: number = date.getMonth() + 1;
         let day: number = date.getDate();
-        const days: string[] = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+        const days: string[] = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
         if (minute < 10) {
             document.getElementById("hour")!.innerHTML = `${hour}:0${minute}`;
         } else {
             document.getElementById("hour")!.innerHTML = `${hour}:${minute}`;
         }
-        document.getElementById("data")!.innerHTML = `${days[date.getDay() - 1]}, ${months[date.getMonth()]} ${day}`;
+        document.getElementById("data")!.innerHTML = `${days[date.getDay()]}, ${months[date.getMonth()]} ${day}`;
     }
 
 
