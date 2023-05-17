@@ -18,7 +18,7 @@ export class HomeScreenComponent implements OnInit {
 
         const timeString = date.toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' });
 
-        document.getElementById("hour")!.innerHTML = timeString;
+        document.getElementById("hour-minute")!.innerHTML = timeString;
 
         // ----- Invece di fare tutti questi if basta usare la variabile creata sopra "timeString" ------
         // if (minute < 10) {
